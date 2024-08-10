@@ -1,0 +1,184 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+    
+}
+.f-info{
+    display: flex;
+    height: 8rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #ebebeb;
+}
+
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    gap: 1.5rem;
+   
+    
+}
+/* .listing-card{
+    border: none !important;
+} */
+.card-text{
+   color: #222222;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover;
+
+}
+
+.listing-link{
+    text-decoration: none;
+    border: none !important;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+.new{
+   /* width: 100%; */
+   display: flex;
+  justify-content: center;
+    
+}
+.new form{
+    width: 50%;
+    
+}
+.add-btn, .delete-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+.edit-btn{
+    border: none !important;
+}
+.show-img{
+    height: 30vh;
+    width: 30vw !important;
+}
+.btns{
+    display: flex;
+    gap: 1rem;
+}
+
+.review-card{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+.signupForm {
+    width: 100%;
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.signupForm h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: #333;
+}
+.flash{
+    width: 100%;
+    max-width: 450px;
+    margin: 50px auto;
+}
+
+/* Map */
+#map{
+    height: 400px;
+    width: 400px;
+}
+
+#filters{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+.filter{
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 1rem;
+}
+.filter:hover{
+    opacity: 1;
+}
+.filter p{
+    font-size: 0.8rem;
+}
+.tax-info{
+    display: none;
+}
+.tax-toggle{
+    border: 2px solid black;
+    border-radius: 1rem;
+    height: 3rem;
+    padding: 1rem;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    
+}
+.btn-search{
+    background-color: #fe424d;
+    color: white;
+    border-radius: 25px;
+    padding: 0 1rem;
+}
+.btn-search:hover{
+    background-color: #fe424d;
+    color: white;
+}
+.btn-search i{
+    display: inline;
+    margin-right: 0.5rem;
+}
+.search-inp{
+    border-radius: 25px;
+    padding: 0.5rem 3rem;
+}
